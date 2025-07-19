@@ -1,7 +1,7 @@
 import React from "react";
 import { Suspense, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SvgBoxListOutlineIcon, SvgDirectSendOutlineIcon } from "@assets/icons";
+import { SvgBoxListOutlineIcon, SvgLibraryOutlineIcon } from "@assets/icons";
 import { Header } from "@components";
 import { LanguageProvider } from "@context";
 import { INITIAL_DATA } from "./utils";
@@ -19,7 +19,7 @@ const LISTMENU = [
   {
     name: "Management",
     link: "/management",
-    icon: <SvgDirectSendOutlineIcon size={28} color="#888888" />,
+    icon: <SvgLibraryOutlineIcon size={28} color="#888888" />,
   },
 ];
 

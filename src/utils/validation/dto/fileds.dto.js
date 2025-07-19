@@ -9,8 +9,8 @@ export const WORDSCHEMA = z
 export const WORDSCHEMA_FA = z
   .string()
   .regex(/^[\u0600-\u06FF\s]*$/, "Only Persian letters are allowed")
-  .refine((val) => val === "" || val.length >= 3, {
-    message: "Minimum 3 characters required",
+  .refine((val) => val === "" || val.length >= 2, {
+    message: "Minimum 2 characters required",
   })
   .default("");
 

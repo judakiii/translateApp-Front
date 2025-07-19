@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-export const SvgDirectSendOutlineIcon = ({
+export const SvgLibraryOutlineIcon = ({
   size = 24,
   color = "#fff",
   variant = "",
@@ -14,7 +14,6 @@ export const SvgDirectSendOutlineIcon = ({
       strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="lucide lucide-library-big-icon lucide-library-big"
       width={sizeInPixel}
       height={sizeInPixel}
       className={variant}
@@ -25,12 +24,12 @@ export const SvgDirectSendOutlineIcon = ({
     </svg>
   );
 };
-SvgDirectSendOutlineIcon.propTypes = {
+SvgLibraryOutlineIcon.propTypes = {
   size: PropTypes.number,
   color: PropTypes.string,
   variant: PropTypes.string,
 };
-SvgDirectSendOutlineIcon.defaultProps = {
+SvgLibraryOutlineIcon.defaultProps = {
   size: 18,
   color: "black",
   variant: "",
