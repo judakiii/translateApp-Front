@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url("../Inter-font.ttf");
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("../Vazirmatn-font.ttf");
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+:root {
+  --font-family-base: Vazirmatn, Inter, sans-serif;
+
+  font-family: var(--font-family-base);
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f7f9;
+  color: black;
+}
