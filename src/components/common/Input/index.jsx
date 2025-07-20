@@ -57,7 +57,7 @@ export const Input = (props) => {
          focus:text-gray-900
          ${BOX_SIZE[size]}
          ${className}
-         ${icon && "px-10"}
+         ${icon && "!px-10"}
          `}
         {...rest}
       />
